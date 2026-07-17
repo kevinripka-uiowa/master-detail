@@ -1,4 +1,4 @@
-* { box-sizing: border-box; }
+.app * { box-sizing: border-box; }
 
 :root {
   --text: #222;
@@ -20,7 +20,7 @@
   --no-text: #444b50;
 }
 
-html, body { width: 100%; min-height: 100%; }
+/* html, body { width: 100%; min-height: 100%; }
 html { background: var(--background); }
 body {
   margin: 0;
@@ -28,21 +28,21 @@ body {
   color: var(--text);
   font-family: serif;
   line-height: 1.5;
-}
+} */
 
 
-p, .chip {
+.app p, .chip {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+.app h3 {
   color: #056C5C;
 }
 
-button, a { font: inherit; }
-button { color: inherit; }
-img { display: block; max-width: 100%; }
-a { color: var(--link); }
+.app button, .app a { font: inherit; }
+.app button { color: inherit; }
+.app img { display: block; max-width: 100%; }
+.app a { color: var(--link); }
 
 .app {
   width: min(100%, 1160px);
